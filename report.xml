@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="1" disabled="0" errors="0" time="0.003" timestamp="2020-11-09T17:04:40.506" name="AllTests">
+  <testsuite name="QueueTest" tests="7" failures="1" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2020-11-09T17:04:40.506">
+    <testcase name="IsQueueHandlerInitialized" status="run" result="completed" time="0" timestamp="2020-11-09T17:04:40.506" classname="QueueTest" />
+    <testcase name="AddNewByteToExistingQueue" status="run" result="completed" time="0" timestamp="2020-11-09T17:04:40.506" classname="QueueTest" />
+    <testcase name="TestThat15QueuesWereCreated" status="run" result="completed" time="0" timestamp="2020-11-09T17:04:40.506" classname="QueueTest" />
+    <testcase name="AddApproximately80BytesEach" status="run" result="completed" time="0.002" timestamp="2020-11-09T17:04:40.506" classname="QueueTest" />
+    <testcase name="TestThatQueuesStayWithinMemoryUsage" status="run" result="completed" time="0.001" timestamp="2020-11-09T17:04:40.508" classname="QueueTest">
+      <failure message="QueueTest.cpp:154&#x0A;Expected equality of these values:&#x0A;  totalMemoryUsed&#x0A;    Which is: 4096&#x0A;  BYTE_MAX&#x0A;    Which is: 2048" type=""><![CDATA[QueueTest.cpp:154
+Expected equality of these values:
+  totalMemoryUsed
+    Which is: 4096
+  BYTE_MAX
+    Which is: 2048]]></failure>
+    </testcase>
+    <testcase name="TestIfOutOfMemoryHasBeenCalled" status="run" result="completed" time="0" timestamp="2020-11-09T17:04:40.509" classname="QueueTest" />
+    <testcase name="TestIfIllegalOperationHasBeenCalled" status="run" result="completed" time="0" timestamp="2020-11-09T17:04:40.509" classname="QueueTest" />
+  </testsuite>
+</testsuites>
